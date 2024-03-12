@@ -183,7 +183,7 @@ def progress():
 
 @app.route('/test', methods = ["GET"])
 def test():
-    print("Hyya")
+    return "Hyya"
 
 @app.route('/login', methods = ["POST"])
 def login():
